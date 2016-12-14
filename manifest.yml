@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CBM-totem
+  host: CBM-totem
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  env:
+    TWITTER_KEYS: '{"consumer_key":"dy0MonLSsDDC6o4MUamFacXxh","consumer_secret":"KS0mluCYub2ZuqaOnYPivHbgVwHbRNhXolwwLiXaY7cadcVzDv","access_token_key":"540128741-eCLx6ZOQIfTrjXI6SzCWS3Eju3Pmq8ORCE6yti9U","access_token_secret":"WBfjqNw8YuDqqWphB4tm5q62gXddvAlXdneXAn5pYZvw7"}'
